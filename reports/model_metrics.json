@@ -1,0 +1,17 @@
+{
+  "random_forest": {
+    "MAE": 104.6166,
+    "RMSE": 236.7551,
+    "WAPE_percent": 158.25
+  },
+  "seasonal_naive": {
+    "MAE": 76.1934,
+    "RMSE": 240.5371,
+    "WAPE_percent": 115.26
+  },
+  "train_rows": 11360,
+  "test_rows": 2860,
+  "split_date": "2011-07-20",
+  "forecast_horizon": "one day ahead",
+  "evaluation_type": "rolling one-step-ahead"
+}

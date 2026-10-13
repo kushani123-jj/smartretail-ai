@@ -1,0 +1,18 @@
+{
+  "source_sales_rows": 1023594,
+  "eligible_sales_rows": 789653,
+  "excluded_sales_rows": 233941,
+  "identified_customers": 5852,
+  "snapshot_date": "2011-12-10",
+  "identified_sales_revenue_gbp": 17319056.37,
+  "selected_clusters": 2,
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary"
+  ],
+  "method": "KMeans on log1p RFM features",
+  "scaling": "StandardScaler",
+  "outlier_treatment": "99th percentile clipping",
+  "random_state": 42
+}
